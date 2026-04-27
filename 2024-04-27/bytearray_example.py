@@ -19,3 +19,9 @@ print(mydata)
 # Go to next spot
 struct.pack_into('h',  mydata, 2, -12345)
 print(mydata)
+
+# Get values back
+val1 = struct.unpack_from('h', mydata, 0)
+val2 = struct.unpack_from('h', mydata, 2)
+print(val1)
+print(val2)
