@@ -18,3 +18,4 @@ print(mydata)
 
 # Go to next spot
 struct.pack_into('h',  mydata, 2, -12345)
+print(mydata)
