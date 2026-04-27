@@ -26,5 +26,5 @@ val2 = struct.unpack_from('h', mydata, 2)
 print(val1)
 print(val2)
 
-multiple = struct.unpack_from('2h, mydata, 0)
+multiple = struct.unpack_from('2h', mydata, 0)
 print(multiple)
