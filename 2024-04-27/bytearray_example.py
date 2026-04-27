@@ -3,3 +3,4 @@ print(mydata)
 # Not a useful way of handling, but we'll try this
 mydata[0:3] = b"hey"
 print(mydata)
+mydata[0] = 12345
