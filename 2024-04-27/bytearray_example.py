@@ -11,5 +11,7 @@ print(mydata)
 # pack_into(format ,  bytearray, offset, value)
 #format is a string indicating type of what's going
 # in there, which affects how many bytes are used
+
 print('A short is this many bytes', struct.calcsize('h'))
 struct.pack_into('h',  mydata, 0, 12345)
+print(mydata)
