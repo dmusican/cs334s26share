@@ -15,3 +15,6 @@ print(mydata)
 print('A short is this many bytes', struct.calcsize('h'))
 struct.pack_into('h',  mydata, 0, 12345)
 print(mydata)
+
+# Go to next spot
+struct.pack_into('h',  mydata, 2, -12345)
